@@ -55,16 +55,20 @@ export default function App() {
             alt="Github Jobs"
             src={gitlogo}
           />
-
           <SearchForm params={params} onParamChange={handleParamChange} />
           <center>
-            {error && <h1 style={{ color: "yellow" }}>Try Refreshing</h1>}
+            {error && <h1 style={{ color: "pink" }}>Try Refreshing</h1>}
           </center>
-          <JobsPagination
-            page={page}
-            setPage={setPage}
-            hasNextPage={hasNextPage}
-          />
+
+          {loading === false ? (
+            <JobsPagination
+              page={page}
+              setPage={setPage}
+              hasNextPage={hasNextPage}
+            />
+          ) : (
+            ""
+          )}
         </HeroContainer>
         <Pa>
           {jobs.map((job) => {
@@ -72,13 +76,15 @@ export default function App() {
           })}
         </Pa>
 
-        <pag>
+        {loading === false ? (
           <JobsPagination
             page={page}
             setPage={setPage}
             hasNextPage={hasNextPage}
           />
-        </pag>
+        ) : (
+          ""
+        )}
       </Container>
     </Loading>
   );
