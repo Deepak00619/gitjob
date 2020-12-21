@@ -7,10 +7,20 @@ const ACTIONS = {
   ERROR: "error",
   UPDATE_HAS_NEXT_PAGE: "update-has-next-page",
 };
+//"proxy": "https://jobs.github.com",
+//const BASE_URL = "/positions.json";
+// const BASE_URL = `https://api.allorigins.win/get?url=${encodeURIComponent(
+//   "https://jobs.github.com/positions.json"
+// )}`;
+
+// const BASE_URL =
+//   "https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json";
+
+//https://jobs.github.com/positions.json
+//https://cors-anywhere.herokuapp.com
 
 const BASE_URL =
-  "https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json";
-//const BASE_URL = "/positions.json";
+  "https://glacial-harbor-05762.herokuapp.com/https://jobs.github.com/positions.json";
 
 function reducer(state, action) {
   switch (action.type) {
