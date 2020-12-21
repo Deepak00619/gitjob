@@ -6,7 +6,7 @@ const Dec = styled.div`
   padding-top: 10px;
   padding-left: 5px;
   color: greenyellow;
-  font-size: 25px;
+  font-size: 3vh;
   margin-left: 5px;
   font-weight: 25px;
 `;
@@ -24,7 +24,7 @@ const Space = styled.div`
 export default function SearchForm({ params, onParamChange }) {
   return (
     <Space>
-      <Form className="mb-4">
+      <Form className="mb-4 md-2 sm-2">
         <Form.Row className="align-items-end">
           <Form.Group as={Col}>
             <Dec>

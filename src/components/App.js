@@ -5,15 +5,9 @@ import Job from "./Job";
 import JobsPagination from "./JobsPagination";
 import gitlogo from "./gitlogo2.png";
 import SearchForm from "./SearchForm";
-import {
-  HeroContainer,
-  HeroContainer1,
-  HeroContainer2,
-  Loading,
-} from "./style";
+import { HeroContainer, Loading } from "./style";
 import style from "styled-components";
 import Back from "./loading11.jpg";
-import styled from "styled-components";
 
 const Pa = style.div`
 background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
@@ -45,7 +39,6 @@ export default function App() {
   return (
     <Loading>
       {loading && <h1 style={{ color: "yellow" }}>Loading...</h1>}
-
       <Container className="my-4">
         <HeroContainer>
           <img
