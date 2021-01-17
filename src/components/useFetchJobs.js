@@ -19,8 +19,11 @@ const ACTIONS = {
 //https://jobs.github.com/positions.json
 //https://cors-anywhere.herokuapp.com
 
+// const BASE_URL =
+//   "https://glacial-harbor-05762.herokuapp.com/https://jobs.github.com/positions.json";
+
 const BASE_URL =
-  "https://glacial-harbor-05762.herokuapp.com/https://jobs.github.com/positions.json";
+  "https://safe-basin-23051.herokuapp.com/https://jobs.github.com/positions.json";
 
 function reducer(state, action) {
   switch (action.type) {

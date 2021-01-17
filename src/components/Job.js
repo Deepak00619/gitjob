@@ -31,7 +31,7 @@ function Job({ job }) {
               </div>
             </div>
             <img
-              className="d-md-block"
+              className="d-none d-sm-block"
               height="50"
               alt={job.company}
               src={job.company_logo}

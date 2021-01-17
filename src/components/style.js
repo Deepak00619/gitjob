@@ -6,7 +6,7 @@ import Lod1 from "./loading11.jpg";
 export const HeroContainer = styled.div`
   background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
     url(${ImgBg});
-  height: 38vh;
+  height: 39.5vh;
   background-position: center;
   background-size: cover;
 `;
