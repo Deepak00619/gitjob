@@ -1,6 +1,4 @@
 {
-  "proxy": "https://jobs.github.com",
-  "name": "github-jobs",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
