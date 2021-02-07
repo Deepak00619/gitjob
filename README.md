@@ -1,12 +1,12 @@
 
+## React jobs searching App
 
 # Screenshot
 ![](https://github.com/Deepak00619/gitjob/blob/main/2021-02-07%20(3).png)
 
 
-## currently in progress .
 
-## Deployed at do refresh if it give application error [Click here](https://jobsgit.herokuapp.com/)
+# currently in progress . Do refresh if it give application error [Click here](https://jobsgit.herokuapp.com/)
 
 
 # Features
